@@ -8,7 +8,6 @@ export default function HomeScreen() {
             <View>
                 <Text style={styles.text}>Home Screen</Text>
             </View> 
-            <StatusBar style="light" />
         </SafeAreaView>
     );
 }

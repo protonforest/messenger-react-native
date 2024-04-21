@@ -4,22 +4,17 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaView, Text, View } from 'react-native';
 
 // Import your screens
-import HomeScreen from './screen/HomeScreen';
+import HomeScreen from './screens/HomeScreen';
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Hussein Karaki was here.</Text>
-        <NavigationContainer>
-          <Stack.Navigator initialRouteName="Home">
-            <Stack.Screen name="Home" component={HomeScreen} />
-          </Stack.Navigator>
-        </NavigationContainer>
-      </View>
-    </SafeAreaView>
+      <NavigationContainer>
+        <Stack.Navigator initialRouteName="Home">
+          <Stack.Screen name="Home" component={HomeScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
   );
 }
 
