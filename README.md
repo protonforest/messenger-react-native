@@ -19,3 +19,7 @@ Start Expo for Remote access: `npx expo start --tunnel`
 
 
 npm install react-native-screens
+
+
+## Test Account
+Apple ID - hk-tester@tester.com

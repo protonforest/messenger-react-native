@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   });
   
 
-export default function HomeScreen() {
+export default function HomeScreen({ navigation }) {
     return(
         <View style={styles.container}>
           <Image
@@ -36,9 +36,9 @@ export default function HomeScreen() {
             keyboardType="numeric"
           />
           <Button
-            title="Press me"
+            title="Click to pay"
             color="#f194ff"
-            onPress={() => Alert.alert('Simple Button pressed')}
+            onPress={() => navigation.navigate('Payment')}
           />
           <StatusBar style="auto" />
         </View>
