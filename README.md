@@ -16,3 +16,6 @@ Start Emulator via Android Studio.
 
 Start Expo for Local Emulator access: `npm run android`
 Start Expo for Remote access: `npx expo start --tunnel`
+
+
+npm install react-native-screens

@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { SafeAreaView, Text, View } from 'react-native';
 
 // Import your screens
 import HomeScreen from './screens/HomeScreen';
